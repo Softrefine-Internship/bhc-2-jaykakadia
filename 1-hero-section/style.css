@@ -1,1 +1,126 @@
-/* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+a {
+  text-decoration: none;
+  color: #505050;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.login a {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+svg.size-6 {
+  width: 14px;
+  height: 14px;
+}
+
+strong {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 80px);
+  padding: 2rem;
+}
+.announcement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  border: 2px solid #dddddd;
+  border-radius: 20px;
+  padding: 5px 7px;
+}
+strong {
+  display: flex;
+  align-items: center;
+  color: #6c39c9;
+  gap: 0.25rem;
+}
+
+.hero-heading {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+  max-width: 600px;
+  line-height: 1.2;
+}
+
+.hero-description {
+  font-size: 16px;
+  text-align: center;
+  color: #6b7280;
+  margin-bottom: 2rem;
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-primary {
+  background-color: #6c39c9;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #5a2fb3;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #505050;
+  border: none;
+}
+
+.btn-secondary:hover {
+  color: #6c39c9;
+}
