@@ -1,1 +1,223 @@
-/* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background-color: #f9fafb;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  margin-bottom: 24px;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 8px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  color: #111827;
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  transition: all 0.2s;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+.other {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.remember-me input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.remember-me label {
+  font-size: 14px;
+  color: #374151;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.forgot-pass {
+  font-size: 14px;
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.forgot-pass:hover {
+  color: #4338ca;
+}
+
+.btn-sign-in {
+  width: 100%;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #4f46e5;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-bottom: 24px;
+}
+
+.btn-sign-in:hover {
+  background-color: #4338ca;
+}
+
+.btn-sign-in:active {
+  background-color: #3730a3;
+}
+
+.continue {
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.continue::before,
+.continue::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: calc(50% - 70px);
+  height: 1px;
+  background-color: #e5e7eb;
+}
+
+.continue::before {
+  left: 0;
+}
+
+.continue::after {
+  right: 0;
+}
+
+.other_options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.btn-twitter,
+.btn-github {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-twitter {
+  color: #1d9bf0;
+}
+
+.btn-github {
+  color: #24292f;
+}
+
+.btn-twitter:hover {
+  background-color: #eff6ff;
+  border-color: #1d9bf0;
+}
+
+.btn-github:hover {
+  background-color: #f6f8fa;
+  border-color: #24292f;
+}
+
+.btn-twitter svg,
+.btn-github svg {
+  width: 16px;
+  height: 16px;
+}
+
+.not-a-member {
+  text-align: center;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.trial-link {
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 4px;
+}
+
+.trial-link:hover {
+  color: #4338ca;
+  text-decoration: underline;
+}

@@ -1,1 +1,57 @@
-/* write your css here */
+* {
+  margin: 10px;
+}
+body {
+  font: "Poppins", sans-serif;
+}
+#users {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.btn {
+  float: right;
+  padding: 7px 10px;
+  background-color: rgb(69, 69, 202);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.listing {
+}
+table {
+  width: 100%;
+  height: 400px;
+  margin-top: 10px;
+  font-size: 18px;
+  border-collapse: collapse;
+}
+.outer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Edit {
+  color: blue;
+  cursor: pointer;
+}
+
+th {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Arial, sans-serif;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+td {
+  opacity: 0.7;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+
+tbody tr:last-child th,
+tbody tr:last-child td {
+  border-bottom: none;
+}
