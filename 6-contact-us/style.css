@@ -10,12 +10,30 @@ body {
     "Oxygen", "Ubuntu", "Cantarell", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #fef3f8;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 3rem 1rem;
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+
+  background:
+    radial-gradient(
+      ellipse at top center,
+      rgba(168, 85, 247, 0.15),
+      transparent 60%
+    ),
+    radial-gradient(
+      ellipse at bottom center,
+      rgba(236, 72, 153, 0.15),
+      transparent 65%
+    ),
+    #ffffff;
 }
 
 

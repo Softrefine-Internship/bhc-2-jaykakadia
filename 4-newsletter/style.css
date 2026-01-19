@@ -21,6 +21,15 @@ body {
   background-color: #121827;
   margin: 50px;
   border-radius: 25px;
+  background:
+    radial-gradient(
+      circle at bottom center,
+      rgba(106, 46, 245, 0.35),
+      transparent 60%
+    ),
+    
+    #121827;
+
 }
 .intro {
   font-size: 2.5rem;
@@ -31,7 +40,7 @@ body {
   width: 45%;
   line-height: 1.5;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   opacity: 0.7;
   font-size: 1.2rem;
 }
