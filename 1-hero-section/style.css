@@ -5,8 +5,8 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  background:
+  font-family: "inter", sans-serif;
+  /* background:
     radial-gradient(
       circle at top left,
       rgba(160, 140, 255, 0.25),
@@ -17,7 +17,7 @@ body {
       rgba(255, 180, 220, 0.25),
       transparent 45%
     ),
-    #ffffff;
+    #ffffff; */
 }
 ul {
   list-style: none;
@@ -30,12 +30,13 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  margin-top: 0.5rem;
 }
 a {
   text-decoration: none;
-  color: #505050;
+  color: #1e1e1f;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .login a {
@@ -64,24 +65,27 @@ section {
 }
 .announcement {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 0.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   border: 2px solid #dddddd;
   border-radius: 20px;
   padding: 7px 10px;
+  color:#595c63;
+  font-size: 12px;
 }
 strong {
   display: flex;
   align-items: center;
-  color: #6c39c9;
+  color: #4848e0;
   gap: 0.25rem;
+
 }
 
 .hero-heading {
   font-size: 48px;
-  font-weight: 900;
+  font-weight: 750;
   text-align: center;
   color: #1a1a1a;
   margin-bottom: 1rem;
@@ -119,12 +123,12 @@ button {
 }
 
 .btn-primary {
-  background-color: #6c39c9;
+  background-color: #4848e0;
   color: white;
 }
 
 .btn-primary:hover {
-  background-color: #5a2fb3;
+  background-color: 4848e0;
 }
 
 .btn-secondary {
@@ -134,5 +138,5 @@ button {
 }
 
 .btn-secondary:hover {
-  color: #6c39c9;
+  color: #4848e0;
 }

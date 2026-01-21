@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,4 +70,5 @@ input::placeholder {
   background-color: #fff;
   color: #121827;
   cursor: pointer;
+  font-weight: 600;
 }

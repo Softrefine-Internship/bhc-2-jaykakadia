@@ -2,7 +2,8 @@
   margin: 10px;
 }
 body {
-  font: "Poppins", sans-serif;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Arial, sans-serif;
 }
 #users {
   font-size: 1.4rem;

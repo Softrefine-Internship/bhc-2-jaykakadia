@@ -5,7 +5,11 @@
 }
 
 body {
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
     sans-serif;
   background-color: #f9fafb;
 }
@@ -18,10 +22,19 @@ body {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  position: relative;
 }
 
 .logo {
   margin-bottom: 24px;
+  position: absolute;
+  top: 10%;
+  left:50%;
+}
+
+.logo svg {
+  transform: scale(1.8);
+  transform-origin: center;
 }
 
 .heading {
@@ -34,8 +47,8 @@ body {
 
 .container {
   width: 100%;
-  max-width: 400px;
-  padding: 32px;
+  max-width: 440px;
+  padding: 40px;
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -123,14 +136,6 @@ body {
   margin-bottom: 24px;
 }
 
-.btn-sign-in:hover {
-  background-color: #4338ca;
-}
-
-.btn-sign-in:active {
-  background-color: #3730a3;
-}
-
 .continue {
   position: relative;
   text-align: center;
@@ -173,29 +178,19 @@ body {
   padding: 10px 16px;
   font-size: 14px;
   font-weight: 500;
-  border: 1px solid #d1d5db;
+  border: none;
   border-radius: 6px;
-  background-color: #ffffff;
   cursor: pointer;
   transition: all 0.2s;
+  color: #ffffff;
 }
 
 .btn-twitter {
-  color: #1d9bf0;
+  background-color: #1da1f2;
 }
 
 .btn-github {
-  color: #24292f;
-}
-
-.btn-twitter:hover {
-  background-color: #eff6ff;
-  border-color: #1d9bf0;
-}
-
-.btn-github:hover {
-  background-color: #f6f8fa;
-  border-color: #24292f;
+  background-color: #24292f;
 }
 
 .btn-twitter svg,
@@ -205,6 +200,7 @@ body {
 }
 
 .not-a-member {
+  margin-top: 45px;
   text-align: center;
   font-size: 14px;
   color: #6b7280;
