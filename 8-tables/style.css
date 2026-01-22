@@ -32,10 +32,9 @@ body {
   opacity: 0.7;
 }
 table {
-  width: 99%;
+  width: 98%;
   height: 400px;
   margin-top: 10px;
-  margin-right: 10px;
   font-size: 15px;
   border-collapse: collapse;
 }
@@ -43,6 +42,7 @@ table {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 98.5%;
   margin-right: 0;
   margin-bottom: 50px;
 }
