@@ -22,28 +22,28 @@ img{
     align-items: start;
     color: #fff;
     padding-left: 8rem;
-    padding-right: 6.5rem;
+    padding-right: 5.8rem;
     
 }
 .title{
     color:#6e75cd;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 .sub-title{
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 650;
     margin-bottom: 2rem;
 }
 .info{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 200;
     margin-bottom: 2rem;
-    line-height: 1.5;
+    line-height: 1.8;
 }
 .btn{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 450;
     color: #fff;
     background-color: #28303c;
